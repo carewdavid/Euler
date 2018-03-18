@@ -1,0 +1,57 @@
+[package]
+name = "Euler"
+version = "0.1.0"
+authors = ["david <carew124@gmail.com>"]
+
+[dependencies]
+
+[[bin]]
+name = "1"
+path = "src/prob1.rs"
+test = true
+
+[[bin]]
+name = "2"
+path = "src/prob2.rs"
+test = true
+
+[[bin]]
+name = "3"
+path = "src/prob3.rs"
+test = true
+
+[[bin]]
+name = "4"
+path = "src/prob4.rs"
+test = true
+
+[[bin]]
+name = "5"
+path = "src/prob5.rs"
+test = true
+
+[[bin]]
+name = "6"
+path = "src/prob6.rs"
+test = true
+
+[[bin]]
+name = "7"
+path = "src/prob7.rs"
+test = true
+
+[[bin]]
+name = "8"
+path = "src/prob8.rs"
+test = true
+
+[[bin]]
+name = "9"
+path = "src/prob9.rs"
+test = true
+
+[[bin]]
+name = "10"
+path = "src/prob10.rs"
+test = true
+

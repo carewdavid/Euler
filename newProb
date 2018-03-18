@@ -1,0 +1,20 @@
+#! /bin/bash
+
+help() {
+    echo "Usage: newProb <problem number>"
+}
+
+case $1 in
+    [1-9]*)
+        echo "[[bin]]" >> Cargo.toml
+        echo "name = \"$1\"" >> Cargo.toml
+        echo "path = \"src/prob$1.rs\"" >> Cargo.toml
+        echo "test = true" >> Cargo.toml
+        echo "" >> Cargo.toml
+
+        touch src/prob$1.rs
+        ;;
+    *)
+        help
+        ;;
+esac
