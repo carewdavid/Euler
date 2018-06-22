@@ -55,3 +55,8 @@ name = "10"
 path = "src/prob10.rs"
 test = true
 
+[[bin]]
+name = "11"
+path = "src/prob11.rs"
+test = true
+
